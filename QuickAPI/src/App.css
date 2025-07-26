@@ -1,0 +1,99 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.url-input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+select, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  background-color: #333;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.headers {
+  margin-top: 20px;
+}
+
+.header-pair {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.header-pair input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.add-header-btn {
+  margin-top: 10px;
+  background-color: #444;
+}
+
+.body-input textarea {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #00e676;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.response-section {
+  margin-top: 30px;
+}
+
+.response-section pre {
+  background-color: #000;
+  color: #00ff90;
+  padding: 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  max-height: 400px;
+}
+
+
+.body-input {
+  margin-top: 20px;
+}
+
+

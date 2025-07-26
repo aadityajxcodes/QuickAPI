@@ -1,0 +1,57 @@
+/* src/index.css */
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+input, textarea, select {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+}
+
+pre {
+  background-color: #111;
+  color: #00ff88;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.btn-primary {
+  background-color: #00aaff;
+  border: none;
+}
+
+.form-label {
+  color: #ccc;
+}
+
+.select-method {
+  width: 140px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+.get-method   { color: #00ff00; }
+.post-method  { color: #00aaff; }
+.put-method   { color: #ffaa00; }
+.patch-method { color: #ff00ff; }
+.delete-method{ color: #ff4444; }
+
+.response-block {
+  background-color: #1a1a1a;
+  padding: 20px;
+  color: #00ff88;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+
+
