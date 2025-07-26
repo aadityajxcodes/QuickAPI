@@ -1,12 +1,35 @@
-# React + Vite
+# ⚡ API Testing Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight Postman-style web app to test HTTP APIs quickly. Built with **React (Vite)** and **Axios**, this tool allows you to make GET, POST, PUT, DELETE, and other HTTP requests, add custom headers, input request body, and view formatted responses — all in a clean terminal-style UI.
 
-Currently, two official plugins are available:
+## 🔧 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 Supports all HTTP methods (GET, POST, PUT, DELETE, PATCH, etc.)
+- 📝 Input for:
+  - Request URL
+  - Request Body (JSON)
+  - Custom Headers (like `Authorization`, `Content-Type`)
+- 🖥️ Terminal-style UI with:
+  - Method-colored dropdown
+  - Inline URL + method selector
+  - Clear formatted response section
+- 🎨 Dark theme interface
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+
+api-testing-tool/
+├── node_modules/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+
